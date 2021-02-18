@@ -21,8 +21,8 @@ Each model has its strengths and weaknesses, and engineering a real-world applic
 		git clone https://github.com/udacity/nd101-c2-landmarks-starter.git
 		cd nd101-c2-landmarks-starter/landmark_project
 	```
-    
-2. Open a terminal window and navigate to the project folder. Open the notebook and follow the instructions.
+2. Download the dataset included below in the "Dataset Info" section. Note that this will be provided for you if using the workspace in the Udacity classroom.
+3. Open a terminal window and navigate to the project folder. Open the notebook and follow the instructions.
 	
 	```
 		jupyter notebook landmark.ipynb
@@ -38,13 +38,17 @@ __NOTE:__ In the notebook, you will need to train CNNs in PyTorch.  If your CNN 
 
 If your code is taking too long to run, you will need to either reduce the complexity of your chosen CNN architecture or switch to running your code on a GPU.  If you'd like to use a GPU, you can spin up an instance of your own:
 
-#### Amazon Web Services
+### Classroom GPU Workspace
 
-You can use Amazon Web Services to launch an EC2 GPU instance. (This costs money, but enrolled students should see a coupon code in their student `resources`.)
+A GPU workspace is available from within the Udacity classroom. Make sure you save your notebook and any related files, then click on the "Enable" button next to the GPU hours.
+
+### Amazon Web Services
+
+You can also use Amazon Web Services to launch an EC2 GPU instance.
 
 ## Evaluation
 
-Your project will be reviewed by a Udacity reviewer against the CNN project rubric.  Review this rubric thoroughly and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
+Your project will be reviewed by a Udacity reviewer against the CNN project rubric (linked in the classroom).  Review the rubric thoroughly and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
 
 ## Project Submission
 
@@ -60,4 +64,8 @@ Click on the "Submit Project" button in the classroom and follow the instruction
 
 ## Dataset Info
 
-The landmark images are a subset of the Google Landmarks Dataset v2.
+The landmark images are a subset of the Google Landmarks Dataset v2. If you are using the
+classroom workspace, the dataset is provided therein; otherwise it can be obtained using
+[this link](https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip).
+
+You can find license information for the full dataset [on Kaggle](https://www.kaggle.com/google/google-landmarks-dataset).
