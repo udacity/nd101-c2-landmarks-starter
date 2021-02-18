@@ -4,7 +4,7 @@ Welcome to the Convolutional Neural Networks (CNN) project!
 In this project, you will learn how to build a pipeline to process real-world, user-supplied images.
 Given an image, your algorithm will predict the most likely locations where the image was taken.
 
-![Sample Output][./images/sample_landmark_output.png]
+![Sample Output](./images/sample_landmark_output.png)
 
 By completing this lab, you demonstrate your understanding of the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.
 
