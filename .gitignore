@@ -1,3 +1,7 @@
+landmark_project/test_landmark_photos/
+
+#--------------#
+
 *.bundle.*
 lib/
 node_modules/
